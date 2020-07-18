@@ -1,9 +1,9 @@
 $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("ELSC_0l9.feature");
 formatter.feature({
   "line": 2,
-  "name": "I want automate elsc 019 test case",
+  "name": "I want to automate elsc 019 test case using data parameters and excel data",
   "description": "To verify whether application allows admin to create training session based on the created sessions categories list",
-  "id": "i-want-automate-elsc-019-test-case",
+  "id": "i-want-to-automate-elsc-019-test-case-using-data-parameters-and-excel-data",
   "keyword": "Feature",
   "tags": [
     {
@@ -13,137 +13,137 @@ formatter.feature({
   ]
 });
 formatter.scenario({
-  "line": 6,
-  "name": "Create a session",
+  "line": 33,
+  "name": "Create session using data from excel",
   "description": "",
-  "id": "i-want-automate-elsc-019-test-case;create-a-session",
+  "id": "i-want-to-automate-elsc-019-test-case-using-data-parameters-and-excel-data;create-session-using-data-from-excel",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 5,
-      "name": "@My_assignment"
+      "line": 32,
+      "name": "@My_assignment_Excel"
     }
   ]
 });
 formatter.step({
-  "line": 7,
+  "line": 34,
   "name": "I open the browser and enter the url \"http://elearningm1.upskills.in/\"",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 8,
+  "line": 35,
   "name": "I enter User name",
   "keyword": "When "
 });
 formatter.step({
-  "line": 9,
+  "line": 36,
   "name": "I enter password",
   "keyword": "And "
 });
 formatter.step({
-  "line": 10,
+  "line": 37,
   "name": "I click on Login button",
   "keyword": "Then "
 });
 formatter.step({
   "comments": [
     {
-      "line": 11,
+      "line": 38,
       "value": "# Go to Administration tab and  add Category"
     }
   ],
-  "line": 12,
+  "line": 39,
   "name": "I click on Administration tab",
   "keyword": "When "
 });
 formatter.step({
-  "line": 13,
+  "line": 40,
   "name": "I click on Sessions categories list link",
   "keyword": "And "
 });
 formatter.step({
-  "line": 14,
+  "line": 41,
   "name": "I click on Add category icon",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 15,
-  "name": "I enter Category name \"ELSC_019\"",
+  "line": 42,
+  "name": "I enter Category name",
   "keyword": "And "
 });
 formatter.step({
-  "line": 16,
+  "line": 43,
   "name": "I click on Add category Button",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 17,
+  "line": 44,
   "name": "I click on Session list Link",
   "keyword": "And "
 });
 formatter.step({
-  "line": 18,
+  "line": 45,
   "name": "I click on add training icon",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 19,
-  "name": "I enter Session name \"ELSC019_s7\"",
+  "line": 46,
+  "name": "I enter Session name",
   "keyword": "And "
 });
 formatter.step({
-  "line": 20,
-  "name": "I select Coach name \"Roshan\"",
+  "line": 47,
+  "name": "I select Coach name",
   "keyword": "And "
 });
 formatter.step({
-  "line": 21,
+  "line": 48,
   "name": "I click on advanced settings button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 22,
-  "name": "I select My session from dropdown \"ELSC_019\"",
+  "line": 49,
+  "name": "I select My session from dropdown",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 23,
+  "line": 50,
   "name": "I click on NextStep Button",
   "keyword": "When "
 });
 formatter.step({
-  "line": 24,
+  "line": 51,
   "name": "I select Course from Courselist window",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 25,
+  "line": 52,
   "name": "I click on arrow button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 26,
+  "line": 53,
   "name": "I click on next step button",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 27,
-  "name": "I Enter and select Student name in Portal users list \"Manipal\"",
+  "line": 54,
+  "name": "I Enter and select Student name in Portal users list",
   "keyword": "When "
 });
 formatter.step({
-  "line": 28,
+  "line": 55,
   "name": "I click on Finish session creation button",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 29,
+  "line": 56,
   "name": "I verify Success text",
   "keyword": "And "
 });
 formatter.step({
-  "line": 30,
+  "line": 57,
   "name": "I close the browser",
   "keyword": "Then "
 });
@@ -157,191 +157,161 @@ formatter.match({
   "location": "ELSC_019_stepdefinitions.i_open_the_browser_and_enter_the_url(String)"
 });
 formatter.result({
-  "duration": 14181678400,
+  "duration": 11647966900,
   "status": "passed"
 });
 formatter.match({
   "location": "ELSC_019_stepdefinitions.i_enter_User_name()"
 });
 formatter.result({
-  "duration": 171815800,
+  "duration": 152145300,
   "status": "passed"
 });
 formatter.match({
   "location": "ELSC_019_stepdefinitions.i_enter_password()"
 });
 formatter.result({
-  "duration": 157529400,
+  "duration": 214223700,
   "status": "passed"
 });
 formatter.match({
   "location": "ELSC_019_stepdefinitions.i_click_on_Login_button()"
 });
 formatter.result({
-  "duration": 11153467000,
+  "duration": 3025598800,
   "status": "passed"
 });
 formatter.match({
   "location": "ELSC_019_stepdefinitions.i_click_on_Administration_tab()"
 });
 formatter.result({
-  "duration": 878000800,
+  "duration": 768273700,
   "status": "passed"
 });
 formatter.match({
   "location": "ELSC_019_stepdefinitions.i_click_on_Sessions_categories_list_link()"
 });
 formatter.result({
-  "duration": 2643503600,
+  "duration": 946065200,
   "status": "passed"
 });
 formatter.match({
   "location": "ELSC_019_stepdefinitions.i_click_on_Add_category_icon()"
 });
 formatter.result({
-  "duration": 1395535300,
+  "duration": 787799900,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "ELSC_019",
-      "offset": 23
-    }
-  ],
-  "location": "ELSC_019_stepdefinitions.i_enter_Category_name(String)"
+  "location": "ELSC_019_stepdefinitions.i_enter_Category_name()"
 });
 formatter.result({
-  "duration": 188076700,
+  "duration": 1041365300,
   "status": "passed"
 });
 formatter.match({
   "location": "ELSC_019_stepdefinitions.i_click_on_Add_category_Button()"
 });
 formatter.result({
-  "duration": 1414987700,
+  "duration": 1038614500,
   "status": "passed"
 });
 formatter.match({
   "location": "ELSC_019_stepdefinitions.i_click_on_Session_list_Link()"
 });
 formatter.result({
-  "duration": 8088358000,
+  "duration": 2794607800,
   "status": "passed"
 });
 formatter.match({
   "location": "ELSC_019_stepdefinitions.i_click_on_add_training_icon()"
 });
 formatter.result({
-  "duration": 11052194800,
+  "duration": 4850854000,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "ELSC019_s7",
-      "offset": 22
-    }
-  ],
-  "location": "ELSC_019_stepdefinitions.i_enter_Session_name(String)"
+  "location": "ELSC_019_stepdefinitions.i_enter_Session_name()"
 });
 formatter.result({
-  "duration": 264311400,
+  "duration": 402308300,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "Roshan",
-      "offset": 21
-    }
-  ],
-  "location": "ELSC_019_stepdefinitions.i_select_Coach_name(String)"
+  "location": "ELSC_019_stepdefinitions.i_select_Coach_name()"
 });
 formatter.result({
-  "duration": 5443495800,
+  "duration": 5495476700,
   "status": "passed"
 });
 formatter.match({
   "location": "ELSC_019_stepdefinitions.i_click_on_advanced_settings_button()"
 });
 formatter.result({
-  "duration": 97778300,
+  "duration": 117722900,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "ELSC_019",
-      "offset": 35
-    }
-  ],
-  "location": "ELSC_019_stepdefinitions.I_select_My_session_from_dropdown(String)"
+  "location": "ELSC_019_stepdefinitions.i_select_My_session_from_dropdown()"
 });
 formatter.result({
-  "duration": 532174800,
+  "duration": 608835900,
   "status": "passed"
 });
 formatter.match({
   "location": "ELSC_019_stepdefinitions.i_click_on_NextStep_Button()"
 });
 formatter.result({
-  "duration": 3864771300,
+  "duration": 3072209000,
   "status": "passed"
 });
 formatter.match({
   "location": "ELSC_019_stepdefinitions.i_select_Course_from_Courselist_window()"
 });
 formatter.result({
-  "duration": 247794400,
+  "duration": 198096700,
   "status": "passed"
 });
 formatter.match({
   "location": "ELSC_019_stepdefinitions.i_click_on_arrow_button()"
 });
 formatter.result({
-  "duration": 160717300,
+  "duration": 130158900,
   "status": "passed"
 });
 formatter.match({
   "location": "ELSC_019_stepdefinitions.i_click_on_next_step_button()"
 });
 formatter.result({
-  "duration": 1791826900,
+  "duration": 1592956300,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "Manipal",
-      "offset": 54
-    }
-  ],
-  "location": "ELSC_019_stepdefinitions.i_Enter_and_select_Student_name_in_Portal_users_list(String)"
+  "location": "ELSC_019_stepdefinitions.i_Enter_Student_name_in_Portal_users_list()"
 });
 formatter.result({
-  "duration": 5342812900,
+  "duration": 5357616000,
   "status": "passed"
 });
 formatter.match({
   "location": "ELSC_019_stepdefinitions.i_click_on_Finish_session_creation_button()"
 });
 formatter.result({
-  "duration": 13649924400,
+  "duration": 11990920100,
   "status": "passed"
 });
 formatter.match({
   "location": "ELSC_019_stepdefinitions.I_verify_Success_text()"
 });
 formatter.result({
-  "duration": 70532300,
+  "duration": 54440500,
   "status": "passed"
 });
 formatter.match({
   "location": "ELSC_019_stepdefinitions.I_close_the_browser()"
 });
 formatter.result({
-  "duration": 894012100,
+  "duration": 830279700,
   "status": "passed"
 });
 });

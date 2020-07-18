@@ -16,7 +16,7 @@ Feature: I want to automate elsc 019 test case using data parameters and excel d
     Then I click on Add category Button
     And I click on Session list Link
     Then I click on add training icon
-    And I enter Session name "ELSC019_s8"
+    And I enter Session name "ELSC019_s9"
     And I select Coach name "Roshan"
     And I click on advanced settings button
     Then I select My session from dropdown "ELSC_019"

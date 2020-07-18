@@ -18,7 +18,7 @@ import cucumber.api.testng.CucumberFeatureWrapper;
 import cucumber.api.testng.TestNGCucumberRunner;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="feature_files",glue= "stepdefinitions",tags="@ELSC_019",
+@CucumberOptions(features="feature_files",glue= "stepdefinitions",tags="@My_assignment_Excel",
 format=
 {"pretty",
 "html:target/cucumber-reports/cucumber-pretty",
