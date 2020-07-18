@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ElearningSuite]">
+  <test name="ELSC019Test">
+    <classes>
+      <class name="Test.TestRunner"/>
+    </classes>
+  </test> <!-- ELSC019Test -->
+</suite> <!-- Failed suite [ElearningSuite] -->

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ElearningSuite" duration-ms="116289" started-at="2020-07-17T17:26:01Z" finished-at="2020-07-17T17:27:57Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Test.TestRunner@402a079c]" name="feature" class="Test.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="ELSC019Test" duration-ms="116289" started-at="2020-07-17T17:26:01Z" finished-at="2020-07-17T17:27:57Z">
+      <class name="Test.TestRunner">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Test.TestRunner@402a079c]" name="openBrowser" is-config="true" duration-ms="12905" started-at="2020-07-17T22:55:48Z" finished-at="2020-07-17T22:56:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Test.TestRunner@402a079c]" name="setUpClass" is-config="true" duration-ms="820" started-at="2020-07-17T22:56:01Z" finished-at="2020-07-17T22:56:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Test.TestRunner@402a079c]" name="feature" duration-ms="114673" started-at="2020-07-17T22:56:02Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-07-17T22:57:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[I want automate elsc 019 test case]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Test.TestRunner@402a079c]" name="tearDownClass" is-config="true" duration-ms="579" started-at="2020-07-17T22:57:56Z" finished-at="2020-07-17T22:57:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Test.TestRunner -->
+    </test> <!-- ELSC019Test -->
+  </suite> <!-- ElearningSuite -->
+</testng-results>
